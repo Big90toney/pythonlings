@@ -14,5 +14,8 @@ class Color:
     def __str__(self):
         return f"rgb({self.r}, {self.g}, {self.b})"
 
+    def __repr__(self):
+        return f"Color(r={self.r}, g={self.g}, b={self.b})"
+
 
 c = Color(255, 128, 0)

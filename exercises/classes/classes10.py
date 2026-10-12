@@ -10,8 +10,9 @@
 # `pi = 3.14159` line from inside __init__ and put it at class level.
 
 class Circle:
+    pi = 3.14159    
+    
     def __init__(self, radius):
-        pi = 3.14159        # wrong: local variable, not a class attribute
         self.radius = radius
 
     def area(self):
